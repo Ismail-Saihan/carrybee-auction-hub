@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-inter: var(--font-inter), system-ui, sans-serif;
+
+  /* Primary Brand Colors */
+  --color-cb-yellow: #FFC107;
+  --color-cb-yellow-dark: #FFB800;
+  --color-cb-yellow-deep: #E6A700;
+
+  /* Neutral Colors */
+  --color-cb-neutral-primary: #111827;
+  --color-cb-neutral-secondary: #1F2937;
+  --color-cb-neutral-surface: #374151;
+  --color-cb-neutral-muted: #6B7280;
+  --color-cb-neutral-border: #E5E7EB;
+  --color-cb-neutral-bg: #F8FAFC;
+  --color-cb-neutral-card: #FFFFFF;
+
+  /* Semantic Colors */
+  --color-cb-semantic-success: #10B981;
+  --color-cb-semantic-error: #EF4444;
+  --color-cb-semantic-warning: #F59E0B;
+  --color-cb-semantic-info: #3B82F6;
+  --color-cb-semantic-secondary: #8B5CF6;
+
+  /* Status Colors */
+  --color-cb-status-live: #10B981;
+  --color-cb-status-ending: #F59E0B;
+  --color-cb-status-upcoming: #3B82F6;
+  --color-cb-status-ended: #6B7280;
+  --color-cb-status-won: #059669;
+  --color-cb-status-lost: #EF4444;
+  --color-cb-status-payment: #D97706;
+  --color-cb-status-completed: #2563EB;
+  --color-cb-status-cancelled: #9CA3AF;
+}
+
+:root {
+  --background: #F8FAFC;
+  --foreground: #111827;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CarryBee Typography Helpers */
+.cb-display {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.cb-h1 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.cb-h2 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.cb-h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.cb-h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.cb-h5 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.cb-body-lg {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #374151;
+}
+
+.cb-body {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #374151;
+}
+
+.cb-body-sm {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.cb-caption {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #6B7280;
+}
