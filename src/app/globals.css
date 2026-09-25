@@ -120,3 +120,12 @@ body {
   font-weight: 400;
   color: #6B7280;
 }
+
+/* Hide scrollbars for clean horizontal pill bars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
